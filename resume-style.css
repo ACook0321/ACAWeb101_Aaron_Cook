@@ -2,35 +2,278 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: auto;
+  
 }
 
 .resume-container{
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 15% 85%;
   width: 900;
-  height: 1200;
+  height: 1550;
+  margin: 10px;
+  
   
 }
 
 .header{
+  display: grid;
   width: auto;
-  height: 100%;
+  height: 20%;
+  grid-template-columns: 55% 20% 25%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+ 
+  
+  
+}
+.Name{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 30 60 5 10;
+}
+.Job-Title{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 5 60 5 9.8;
+}
+.Summary{
+  grid-row-start: 4;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 0 60 5 10;
+}
+.email{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin: 30 60 0 0;
+}
+.Phone{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin: 0 60 0 0;
+}
+.City{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin: 0 60 0 0;
+}
+.Linkedin{
+  grid-row-start:5 ;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin: 15 60 0 0;
+}
+.github{
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start:3;
+  grid-column-end: 4;
+  margin: 15 60 0 0;
 }
 
 .skills-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  width: auto;
+  height: 80%;
+  
+  
 }
 .skills-info-1{
-  display: grid;
+  
   width: auto;
   height: auto;
+  margin: 130 50 0 10;
+  border: 20 50 30 2;
+  
+}
+.Job_Title{
+  margin: 0;
+}
+.Company{
+  margin: 0;
+}
+.Date{
+  margin: 8 0 0 0;
+}
+.Achievements{
+  margin: 4 0 0 0;
+}
+.Degree{
+  margin: 5 0 0 0;
 }
 
 .skills-info-2{
   display: grid;
+  grid-template-rows: 55% 15% 20% 10%;
   width: auto;
   height: auto;
+  margin: 130 10 0 0;
+  
+}
+
+.other-skills{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 50px 50px 50px;
+  margin: 50 0 0 0;
+  
+  
+  
+}
+.os0{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start:1;
+  grid-column-end: 4;
+}
+.ost1{
+  display: flex;
+  justify-content: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start:1;
+  grid-column-end: 2;
+  border-radius: 15px;
+  background-color: rgba(0, 191, 255, 0.63);
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+  padding: 5 0 0 0;
+  
+}
+.ost2{
+  display: flex;
+  justify-content: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start:2;
+  grid-column-end: 3;
+  border-radius: 15px;
+  background-color: rgba(0, 191, 255, 0.63);
+  box-sizing: border-box;
+  width: 120px;
+  height: 30px;
+  padding: 5 0 0 0;
+  margin: 20 0 0 15;
+}
+.ost3{
+  display: flex;
+  justify-content: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start:3;
+  grid-column-end: 4;
+  border-radius: 15px;
+  background-color: rgba(0, 191, 255, 0.63);
+  box-sizing: border-box;
+  width: 110px;
+  height: 30px;
+  padding: 5 0 0 0;
+}
+.ost4{
+  display: flex;
+  justify-content: center;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start:1;
+  grid-column-end: 2;
+  border-radius: 15px;
+  background-color: rgba(0, 191, 255, 0.63);
+  box-sizing: border-box;
+  width: 115px;
+  height: 30px;
+  padding: 5 0 0 0;
+}
+.ost5{
+  display: flex;
+  justify-content: center;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start:1;
+  grid-column-end: 3;
+  border-radius: 15px;
+  background-color: rgba(0, 191, 255, 0.63);
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+  padding: 5 0 0 0;
+  margin: 20 40 50 133;
+}
+.ost6{
+  display: flex;
+  justify-content: center;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start:3;
+  grid-column-end: 4;
+  border-radius: 15px;
+  background-color: rgba(0, 191, 255, 0.63);
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+  padding: 5 0 0 0;
+}
+.volunteer{
+  margin: 50 0 0 0;
+}
+.volunteer1{
+  margin: 0;
+}
+.instuctor{
+  margin: 0;
+}
+.intrests{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  30px 20px 20px;
+
+
+}
+.intrests1{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+.intrests2{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.intrests3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.intrests4{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.intrests5{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 }
